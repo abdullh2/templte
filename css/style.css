@@ -1,0 +1,113 @@
+
+/* 2- General Styles */
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    font-family: inherit;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:montserrat,sans-serif;
+}
+body
+{
+  
+    font-family: 'Varela Round', 'sans-serif';
+    background-color: #BDDDFF;
+}
+a{
+    text-decoration: none;
+}
+.contener{
+    width: 800px;
+
+    background: #fff;
+    margin: 0px auto;
+   border-radius:0 0 5px  5px;
+   padding: 20px;
+  
+}
+.header{
+   
+       width: 800px;
+    height: 33px;
+    color: #fff;
+    margin: 50px auto 0 auto;
+    border-radius: 5px 5px 0 0;
+    background: #DFA51F;
+    padding: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+
+}
+.content{
+    overflow: hidden;
+}
+.item{
+    width: 50%;
+    float: left;
+    padding:15px;
+}
+.item.img_sol .images img{
+    width: 100%;
+    
+}
+.item.img_sol .images {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.icon
+{
+    color: #fff;
+}
+.item.img_sol a{
+   color: #fff;
+    padding: 6px;
+    margin: 3px;
+    display: block;
+    float: left;
+    border-radius: 5px;
+}
+.icon_facebook{
+    background: #2A4D7E;
+}
+.icon_twitter
+{
+    background: #2997BD;
+}
+.icon_google i{
+    color: #333333;
+}
+.item.img_sol  a.icon_google{
+    color: #333333;
+    border:1px solid #333;
+}
+.icon_envelop{
+    background-color: #040404;
+}
+
+.icon_renren{
+background: #2A4D7E;
+}
+.icon_share{
+background: #DF3D15;
+}
+.forms{
+        padding-top: 35px;
+}
+.forms input{
+    width: 100%;
+    height: 40px;
+    padding: 7px;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    font-size: 15px;
+    margin:  10px 0;
+}
+.forms label{
+    font-weight: bold;
+}
